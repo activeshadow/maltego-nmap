@@ -30,7 +30,9 @@ This *should* create two transforms and a machine in Maltego.
 ## Use
 
 From the `Run Machine` option, select `Nmap XML Parser` and enter the path to
-the Nmap XML file as the description.
+the Nmap XML file as the description. Alternatively, you can also provide a
+directory and the transform will recursively search the given directory for
+files named `results.xml` and parse each one into the same graph.
 
 ## Just for Fun
 
